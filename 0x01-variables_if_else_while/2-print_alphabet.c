@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * main - Entry point
 * Description :prints the alphabet in lowercase
@@ -6,12 +7,12 @@
 */
 int main(void)
 {
-int n = 97;
-while(n <= 122)
+int ch  = 'a';
+while(ch <= 'Z')
 {
-putchar(n);
-n++;
+putchar(ch);
+ch++;
 }
-putchar('/n');
+putchar('\n');
 return (0);
 }
