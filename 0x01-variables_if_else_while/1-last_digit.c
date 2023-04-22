@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: print the value of a status:greater than, is zero and is not than 6.
+ * Description: print the value of a status:greater than 5, less than 6, or 0.
  * Return: Always  0 (success)
  */
 
