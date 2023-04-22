@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
 * main - Entry point
 * Description: prints all  alphabet in lowercase except e and q
@@ -13,7 +12,8 @@ int main(void)
 char ch = 'a';
 while (ch <= 'z')
 {
-if (ch != 'e' || ch != 'q')
+if (ch === 'e' || ch == 'q')
+ch++;
 putchar (ch);
 ch++;
 }
