@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 * main - Entry point
 * Description :prints the alphabet in lowercase
@@ -10,7 +9,7 @@ int main(void)
 
 char ch = 'a';
 
-while(ch <= 'Z')
+while (ch <= 'Z')
 {
 putchar(ch);
 ch++;
