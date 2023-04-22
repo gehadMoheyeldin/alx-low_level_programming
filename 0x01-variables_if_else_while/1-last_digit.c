@@ -4,18 +4,18 @@
 
 /**
  * main - Entry point
- * Description get the last degiti of a number
- * Return: Always 0
+ * Description: print the value of a status:greater than, is zero and is not than 6.
+ * Return:  0 (success)
  */
 
 int main(void)
 {
-int n;
-int ld;
+int n,digit;
+
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-ld = n % 10;
+digit = n % 10;
 if (digit > 5)
 
 printf("last digit of %i is %i and is greater than 5\n", n, digit);
