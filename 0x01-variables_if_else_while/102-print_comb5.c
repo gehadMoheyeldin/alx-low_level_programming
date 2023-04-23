@@ -6,9 +6,11 @@
 * different combinations of two digits
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int m = 0 , n;
+
+int m = 0, n;
 while (m <= 99)
 {
 n = m;
