@@ -2,19 +2,20 @@
 
 /**
 * main - Entry point
-* Description: write a program that prints all possible different combinations of two digits
+* Description: write a program that prints all possible
+* different combinations of two digits
 * Return: Always 0 (Success)
 */
 
 int main(void)
 {
 int m = 0 , n;
-while( m <= 99)
+while (m <= 99)
 {
 n = m;
 while (n <= 99)
 {
-if (n != m )
+if (n != m)
 {
 putchar((m / 10) + 48);
 putchar((m % 10) + 48);
@@ -32,5 +33,6 @@ n++;
 m++;
 }
 putchar('\n');
+
 return (0);
 }
