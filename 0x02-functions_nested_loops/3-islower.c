@@ -2,7 +2,7 @@
 
 /**
  *_is lower - function to check if
- *character is lower case
+ *character is lowercase
  *@c: checks input of function
  *Return : returns 1 if `c` is lower case
  otherwise always 0 (Success)
