@@ -32,15 +32,15 @@ return (lenght);
 int main(void)
 {
 int count, initial0s;
-unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, flo = 0, f20 = 0, sumo = 0;
+unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, fl0 = 0, f20 = 0, sumo = 0;
 
 for (count = 1; count <= 98; count++)
 {
-if (flo > 0)
-printf("%lu", flo);
+if (fl0 > 0)
+printf("%lu", fl0);
 initial0s = numLength(mx) - 1 - numLength(f1);
 
-while (flo > 0 && initial0s > 0)
+while (fl0 > 0 && initial0s > 0)
 {
 printf("%d", 0);
 initial0s--;
@@ -63,9 +63,3 @@ printf("\n");
 return (0);
 
 }
-
-
-
-
-
-
