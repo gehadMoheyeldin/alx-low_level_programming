@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * prints_times_table - prints time table of n
  *
@@ -11,6 +10,7 @@ void prints_times_table(int n)
 {
 
 int  prod, mult, num;
+
 if (n <= 15 && n >= 0)
 {
 for (num = 0; num <= n; num++)
