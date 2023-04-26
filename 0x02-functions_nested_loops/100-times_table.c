@@ -2,11 +2,12 @@
 
 
 /**
- * prints_ times_table - prints time table of nn
- *@n: takes number input
+ * prints_times_table - prints time table of n
+ *
+ * @n: takes number input
  */
 
-void prints_ times_table(int n)
+void prints_times_table(int n)
 {
 
 int  prod, mult, num;
@@ -29,8 +30,7 @@ if (prod >= 100)
 _putchar((prod / 100) + 48);
 _putchar((prod / 10 ) % 10 + 48);
 
-else if (prod <= 99 && prod >= 10)
-}
+} else if (prod <= 99 && prod >= 10)
 _putchar((prod / 10) + 48);
 _putchar ((prod % 10) + 48);
 }
