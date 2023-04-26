@@ -18,8 +18,8 @@ while (num)
 	lenght += 1;
 }
 return (lenght);
-}
 
+}
 /**
  * main - Entry point
  *
