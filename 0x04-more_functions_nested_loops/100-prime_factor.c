@@ -1,23 +1,24 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * print_to_98 - Prints all natural numbers from input to 98,
- *               in order separated by a comma followed by a space.
- * @n: The number to begin counting at.
+ * main - prints largest prime factor.
+ * Return: Always 0.
  */
-void print_to_98(int n)
-{
-	if (n >= 98)
-	{
-		while (n > 98)
-			printf("%d, ", n--);
-		printf("%d\n", n);
-	}
 
-	else
-	{
-		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
-	}
+int main(void)
+{
+long int n, fp;
+
+n = 612852475143;
+for (fp = 2; fp <= n; fp++)
+{
+if (n % fp == 0)
+{
+n /= fp;
+fp--;
+}
+}
+printf("%ld\n", fp);
+return (0);
 }
