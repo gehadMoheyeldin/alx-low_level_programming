@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints the first 50 fibonacci 
+ * main - prints the first 50 fibonacci
  * numbers starting with 1 and 2,
- * Return: Always 
+ * Return: Always
  *
  */
 
