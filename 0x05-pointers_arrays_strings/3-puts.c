@@ -2,8 +2,8 @@
 
 /**
  * _puts - prints a string followed by a new line, to stdout
- * @str: string parameter to print 
- * Return: Noting 
+ * @str: string parameter to print
+ * Return: Noting
  */
 
 void _puts(char *str)
