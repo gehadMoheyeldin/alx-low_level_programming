@@ -5,8 +5,8 @@
  * _strcpy - Copiar el contenido de uno a otra variable
  * @dest: char type string
  * @src: char type string
- *Description: copy the string pointed to by pointer 'src' to
- the buffer pointed to by 'dest'
+ * Description: copy the string pointed to by pointer 'src' to
+ * the buffer pointed to by 'dest'
  * Return: pointer to 'dest'
  */
 
