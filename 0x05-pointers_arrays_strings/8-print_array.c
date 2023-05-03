@@ -5,7 +5,7 @@
  * followed by a new line.
  * @a: the input array
  * @n: the lenght of the array
- * Return: Nothing 
+ * Return: Nothing
  *
  */
 
