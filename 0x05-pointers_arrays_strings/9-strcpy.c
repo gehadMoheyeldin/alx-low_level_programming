@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- * **
  * _strcpy - Copiar el contenido de uno a otra variable
  * @dest: char type string
  * @src: char type string
@@ -21,6 +20,6 @@ dest [i] = src[i];
 
 } while (src[i] != '\0');
 
-		
+
 return (dest);
 }
