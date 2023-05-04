@@ -5,8 +5,9 @@
  * * cap_string - capitalizes most of the words in a string.
  * @s: analized string.
  *
- * Return: 1 if true, 0 if false 
+ * Return: 1 if true, 0 if false
  */
+
 char *cap_string(char *s)
 {
 	int i, j;
