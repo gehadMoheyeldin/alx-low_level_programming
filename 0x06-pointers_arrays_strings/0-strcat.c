@@ -17,10 +17,10 @@ while (dest[c])
 	c++;
 
 /*iterate through each scr array value without the null byte*/
-for (c2 = 0; scr[c2] ; c2++)
+for (c2 = 0; src[c2] ; c2++)
 
 /*append scr [c2] to dest [c] while overwritting the null byte in dest*/
-dest[c++] = scr[c2];
+dest[c++] = src[c2];
 
 return (dest);
 }
