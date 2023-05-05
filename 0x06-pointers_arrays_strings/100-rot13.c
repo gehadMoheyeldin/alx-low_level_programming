@@ -25,7 +25,8 @@ char *rot13(char *s)
 				s[i] = datarot[j];
 				break;
 			}
-	     }
+		}
+			i++;
 	}
 	return (s);
 }
