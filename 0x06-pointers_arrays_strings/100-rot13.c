@@ -5,8 +5,9 @@
  * rot13 - encoder rot13
  * @s: pointer to string params
  *
- * Return: *s
+ * Return: String with all letters in ROT13 baser.
  */
+
 
 char *rot13(char *s)
 {
