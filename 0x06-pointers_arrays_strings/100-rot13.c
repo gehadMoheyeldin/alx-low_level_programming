@@ -28,8 +28,8 @@ s[i] = datarot[j];
 break;
 }
 }
-i++;
 }
+
 return (s);
 
 }
