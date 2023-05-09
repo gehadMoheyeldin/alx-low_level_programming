@@ -1,52 +1,38 @@
 #include "main.h"
 
 /**
- * _strstr - gets  the consecutive of a set of bytes .
- * @haystack: source string
- * @needle: searching string
- * Return: new string.
+ *  * _strstr -  locates a substring.
+ * @haystack: initial string scanned
+ * @needle: string to be searched in the first one
+ *
+ * Return: pointer to first occurence of the given string
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-while (*haystack)
-{
-if ((*haystack == *needle && coincidence(haystack, needle) == 1) || !*needle)
-{
-return (haystack);
-}
+	int i, j;
 
-else
-{
-haystack++;
-}
-}
+	if (needle[0] == '\0')
+	{
+		return (haystack);
+	}
 
-return (0);
-}
+	for (i = 0; haystack[i] != '\0'; i++)
+	{
+		if (haystack[i] == needle[0])
+		{
+			for (j = 0; needle[j] != '\0'; j++)
+			{
+				if (haystack[i + j] != needle[j])
+				{
+					break;
+				}
+			}
 
-/**
- * coincidence - define if the string b is inside a.
- * @a: source string
- * @b: string to be searched
- *
- * Return: 1 if there is coincidence, otherwise 0.
- */
-
-
-int coincidence(char *a, char *b)
-{
-
-while (*b && *b == *a)
-{
-b++;
-a++;
-}
-
-if (*b == '\0')
-return (1);
-
-else
-
-return (0);
+			if (needle[j] == '\0')
+			{
+				return (haystack + i);
+			}
+		}
+	}
+	return ('\0');
 }
