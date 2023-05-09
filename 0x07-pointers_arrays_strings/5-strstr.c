@@ -15,11 +15,13 @@ if ((*haystack == *needle && coincidence(haystack, needle) == 1) || !*needle)
 {
 return (haystack);
 }
+
 else
 {
 haystack++;
 }
 }
+
 return (0);
 }
 
@@ -43,6 +45,8 @@ a++;
 
 if (*b == '\0')
 return (1);
+
 else
+
 return (0);
 }
