@@ -2,7 +2,7 @@
 
 
 /**
- * _print_rev_recursion - prints a string followed by a new line .
+ * _print_rev_recursion - prints a string, followed by a new line 
  * @s: source string
  * Return: void
  */
