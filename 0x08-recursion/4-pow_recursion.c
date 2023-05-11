@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - return the power of a natural number.
+ * _pow_recursion - search  the power of a natural number.
  * @x: natural number
  * @y: power
  *
