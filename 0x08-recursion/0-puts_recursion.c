@@ -2,14 +2,14 @@
 
 
 /**
- * _print__recursion - prints a string, followed by a new line
+ * _puts__recursion - prints a string, followed by a new line
  * @s: source string
  * Return: void
  */
 
 
 void _puts_recursion(char *s)
-{ 
+{
 
 if (*s == '\0')
 {
