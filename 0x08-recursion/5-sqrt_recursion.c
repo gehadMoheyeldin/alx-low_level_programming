@@ -20,26 +20,28 @@ int _sqrt_recursion(int n)
 		return (sqrt_manual(n, 1));
 	}
 }
+
+
 /**
  * sqrt_manual - find square root .
  * @n: natural number
- * @i: counter or number to be multiplied.
+ * @r: counter or number to be multiplied.
  *
  * Return: int 
  */
-int sqrt_manual(int n, int i)
+
+int sqrt_manual(int n, int r)
 {
-	if (i * i == n)
+	if (r * r == n)
 	{
-		return (i);
+		return (r);
 	}
-	else if (i * i > n)
+	else if (r * r > n)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (sqrt_manual(n, i + 1));
+		return (sqrt_manual(n, r + 1));
 	}
 }
-
