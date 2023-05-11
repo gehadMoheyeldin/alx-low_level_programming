@@ -6,7 +6,7 @@
  * @n: natural number
  *
  *
- * Return: the factorial.
+ * Return: int
  */
 int factorial(int n)
 {
