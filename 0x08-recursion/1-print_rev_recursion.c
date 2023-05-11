@@ -5,7 +5,7 @@
  * _print_rev_recursion - prints a string.
  * @s: source string
  *
- * Return: void 
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
