@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - return the sqrt of a natural number.
+ * _sqrt_recursion - return  a natural number square root .
  * @n: natural number
- *
- *
- * Return: sqrt 0 if sqrt is not natural.
+ * Return: int
  */
 int _sqrt_recursion(int n)
 {
@@ -23,11 +21,11 @@ int _sqrt_recursion(int n)
 	}
 }
 /**
- * sqrt_manual - calculate manualy the sqrt of a number.
+ * sqrt_manual - find square root .
  * @n: natural number
  * @i: counter or number to be multiplied.
  *
- * Return: sqrt 0 if sqrt is not natural.
+ * Return: int 
  */
 int sqrt_manual(int n, int i)
 {
