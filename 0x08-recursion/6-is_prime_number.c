@@ -1,8 +1,6 @@
 /**
  * is_prime_number - return the sqrt of a natural number.
  * @n: natural number
- *
- *
  * Return: 1 if is prime otherwise 0.
  */
 int is_prime_number(int n)
@@ -24,7 +22,6 @@ int is_prime_number(int n)
  * is_prime_manual - calculate if the number is prime.
  * @n: natural number
  * @i: counter or divisor of n.
- *
  * Return: 1 if is prime 0 otherwise.
  */
 int is_prime_manual(int n, int i)
