@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the program  name of the executable, followed by a new line 
+ * main - prints the program  name of the executable, followed by a new line
  * @argc: int
  * @argv: list
  * Return: always 0.
