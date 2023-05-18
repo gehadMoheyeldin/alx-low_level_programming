@@ -4,12 +4,12 @@
  * create_array - creates an array of chars and initializes it
  * @size: size of array
  * @c: char to initialize
- * Return: Return pointer to array created
+ * Return: Return pointer to array initialize or NULL
  */
 
 
 char *create_array(unsigned int size, char c)
-}
+{
 
 char *n = malloc(size);
 
