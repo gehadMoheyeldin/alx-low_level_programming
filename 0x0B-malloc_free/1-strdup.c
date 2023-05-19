@@ -4,29 +4,39 @@
 /**
  * _strdup - copy of the  input string in newly allocated memory
  * @str: string
- * Return: pointer to duplicate string or NULL if failure
+ * Return: 0
  */
 
 char *_strdup(char *str)
 {
+	char *nstr;
+	unsigned int len, i;
 
-char *pstr;
-unsigned int i = 0;
+	/* check is str is null */
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-if (str == 0)
-return (0);
+	len = 0;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
 
-while (str[i] != 0)
-i++;
-i++;
+	nstr = malloc(sizeof(char) * (len + 1));
 
-pstr = malloc(sizeof(char) * i);
+	/*check if malloc was successful*/
 
-for (i = 0; str[i] != 0; i++)
-pstr[i] = str[i];
+	if (nstr == NULL)
+	{
+		return (NULL);
+	}
 
-pstr[i] = 0;
-
-return (pstr);
-
+	for (i = 0; i < len; i++)
+	{
+		nstr[i] = str[i];
+	}
+	nstr[len] = '\0';
+	return (nstr);
 }
