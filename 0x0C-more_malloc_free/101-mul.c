@@ -5,9 +5,9 @@
 
 /**
  * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
- * Return: int
+ * @argc: number of arguments
+ * @argv: string with arguments
+ * Return: Always 0 (Success)
 **/
 
 int main(int argc, char *argv[])
