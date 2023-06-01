@@ -1,23 +1,18 @@
-#include "lists.h"
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+extern printf
+section .data
+	msg: db "Hello, Holberton", 0
+	fmt: db "%s", 10, 0
 
-/**
- * list_len - returns the number of elements in a linked list
- * @h: pointer to head node
- * Return: number of nodes.
- **/
+section .text
+	global main
+main:
+	push rbp
+	mov rdi,fmt
+	mov rsi,msg
+	mov rax,0
+	call printf
 
-size_t list_len(const list_t *h)
-{
-	size_t cont = 0;
+	pop rbp
+	mov rax,0
+	ret
 
-	while (h)
-	{
-		cont++;
-		h = h->next;
-	}
-
-	return (cont);
-}
