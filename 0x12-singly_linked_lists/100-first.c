@@ -1,12 +1,10 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * _constructor - prints before main
  *
  * Return: void
- */
+ **/
 
 void __attribute__ ((constructor)) first()
 {
