@@ -6,7 +6,7 @@ int _strlen_recursion(char *s);
  * add_node_end - adds a new node at the end of a list
  * @head: address of  pointer to head node
  * @str: string fiels of the new node
- * Return: size of list 
+ * Return: size of list
  **/
 
 list_t *add_node_end(list_t **head, const char *str)
