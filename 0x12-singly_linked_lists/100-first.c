@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * _constructor - prints before main
+ * first - prints before main
  *
  * Return: void
  */
