@@ -2,10 +2,10 @@
 
 /**
 *get_nodeint_at_index - return the nth node of a linked list
-*@head: pointer to the first node 
+*@head: pointer to the first node
 *@index: index of the node required
 *
-*Return: pointer to node 
+*Return: pointer to node
 */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
