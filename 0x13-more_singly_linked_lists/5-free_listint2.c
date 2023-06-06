@@ -16,12 +16,10 @@ if (temp != NULL)
 {
 while (*head != NULL)
 {
-node  = *head;
+node = *head;
 free(node);
 *head = (*head)->next;
 }
-
 *temp = NULL;
-
 }
 }
