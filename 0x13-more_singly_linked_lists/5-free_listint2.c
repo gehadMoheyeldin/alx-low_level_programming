@@ -19,7 +19,7 @@ while (node)
 {
 	temp = node;
 node = node->next;
-free (temp);
+free(temp);
 }
 *head = NULL;
 }
