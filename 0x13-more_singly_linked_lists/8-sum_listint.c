@@ -2,7 +2,7 @@
 
 /**
  *sum_listint - returns  all the data in a list
- *@head: pointer to the first node 
+ *@head: pointer to the first node
  *
  *Return: sum of the number
  */
