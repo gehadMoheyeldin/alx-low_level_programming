@@ -10,19 +10,17 @@
 int pop_listint(listint_t **head)
 {
 
-listint_t *popped;
-int n;
+	listint_t *tmp;
+	int ret;
 
-if (*head == NULL)
-return (0);
+	if (*head == NULL)
+		return (0);
 
-popped = *head;
+	tmp = *head;
+	ret = (*head)->n;
+	*head = (*head)->next;
 
-n = popped->n;
+	free(tmp);
 
-free(popped);
-
-*head = (*head)->next;
-
-return (n);
+	return (ret);
 }
