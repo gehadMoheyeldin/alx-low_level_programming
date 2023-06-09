@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_uint - Function that converts a binary number to an unsigned int.
+ * binary_to_uint - Function that converts a binary number to an unsigned int
  * @b: the binary number as a string
  *
  * Return: the unsigned int form of b
